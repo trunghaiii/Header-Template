@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+/* Styling about us and sign in */
+.about-sign-in{
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-sign-in .about,.sign-in{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 9px 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 15px;
+    color: green;
+    font-weight: bold;
+}
+.about-sign-in .about{
+    margin-right: 30px;
+}
+.about-sign-in .sign-in{
+    margin-right: 150px;
+    border: 1px solid green;
+}
+
+/* Style logo */
+.logo{
+    margin-top: 85px;
+    text-align: center;
+}
+
+/* Style center content */
+.center-content{
+    margin-top: 30px;
+    
+}
+.center-content div{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.center-content span{
+    display: block;
+    font-size: 40px;
+}
+
+.center-content img{
+    height: 40px;
+    width: 40px;
+}
+
+/* style text */
+
+.text{
+    text-align: center;
+    font-style: italic;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* style button */
+
+.button{
+    /* text-align: center; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.button a{
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid green;
+}
+.button a:hover{
+    background-color: rgb(90, 233, 186);
+}
